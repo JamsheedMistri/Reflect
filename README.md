@@ -164,7 +164,7 @@ If you have something like this or anything else that can switch the lights on a
    * I'd recommend using LXDE-pi's autostart functionality. Simply add this line to the end of `/home/pi/.config/lxsession/LXDE-pi/autostart`:
 
 ```bash
-@chromium-browser --kiosk --incognito http://localhost/reflect
+@chromium-browser --kiosk --incognito http://localhost/
 ```
 
 * Configure mopidy and mopidy-spotify to run on boot
