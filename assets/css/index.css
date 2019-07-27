@@ -1,0 +1,122 @@
+body, html {
+	background-color: black;
+	font-family: "Didact Gothic";
+	font-weight: 400;
+	color: white;
+	cursor: none;
+}
+
+#top-left {
+	position: fixed;
+	left: 20px;
+	top: 10px;
+	max-width: 50vw;
+}
+
+#top-right {
+	position: fixed;
+	right: 20px;
+	top: 10px;
+	text-align: right;
+}
+
+#bottom-left {
+	position: fixed;
+	left: 20px;
+	bottom: 10px;
+	max-width: 50vw;
+}
+
+#bottom-right {
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	text-align: right;
+	max-width: 50vw;
+}
+
+#middle-right {
+	position: fixed;
+	right: 20px;
+	top: 30%;
+	max-width: 50vw;
+	text-align: right;
+}
+
+#icon, #temperature {
+	display: inline-block;
+}
+
+#youtube {
+	position: fixed;
+	bottom: 25vh;
+	width: 100vw;
+	text-align: center;
+}
+
+#youtube-iframe {
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+#time {
+	font-size: 4em;
+}
+
+#date {
+	font-size: 1.5em;
+}
+
+#song-name {
+	font-size: 2.5em;
+}
+
+#volume, #shuffle {
+	font-size: 2em;
+}
+
+#bitcoin {
+	font-size: 2.5em;
+}
+
+#my-bitcoin {
+	font-size: 2em;
+}
+
+#news-title {
+	font-size: 3em;
+}
+
+.news-source-title {
+	font-size: 1.5em;
+}
+
+.news-article {
+	font-size: 1em;
+}
+
+#temperature {
+	font-size: 3em;
+}
+
+#icon img {
+	height: 3.5em;
+	margin-bottom: -0.5em;
+}
+
+.detector-title {
+	font-size: 1.5em;
+}
+
+.detector-info {
+	font-size: 3em;
+}
+
+#no-internet {
+	position: fixed;
+	left: 20px;
+	top: -15px;
+	max-width: 50vw;
+	color: tomato;
+	visibility: hidden;
+}
