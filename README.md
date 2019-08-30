@@ -114,7 +114,7 @@ If you don't want this functionality or you don't have a supported router, Refle
 
 ```html
 <div id="middle-right" class="requires-internet">
-<div class="detector-title" id="detector-important-title">Family Members Home</div>
+	<div class="detector-title" id="detector-important-title">Family Members Home</div>
 	<div class="detector-info" id="detector-important">Loading...</div>
 	<br>
 	<div class="detector-title" id="detector-guests-title">Guests</div>
